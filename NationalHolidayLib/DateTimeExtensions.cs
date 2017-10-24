@@ -8,12 +8,12 @@ namespace NationalHolidayLib
 {
     public static class DateTimeExtensions
     {
-        internal static bool IsWeekend(this DateTime dateTime)
+        public static bool IsWeekend(this DateTime dateTime)
         {
             return dateTime.DayOfWeek == DayOfWeek.Saturday || dateTime.DayOfWeek == DayOfWeek.Sunday;
         }
 
-        internal static bool IsCzechHoliday(this DateTime date)
+        public static bool IsCzechHoliday(this DateTime date)
         {
             bool isCzechHoliday = true;
 
@@ -43,7 +43,7 @@ namespace NationalHolidayLib
             return isCzechHoliday;
         }
 
-        internal static bool IsCzechWorkingDay(this DateTime dateTime)
+        public static bool IsCzechWorkingDay(this DateTime dateTime)
         {
             // isnt weekend and or is holiday
             return !IsWeekend(dateTime) && !IsCzechHoliday(dateTime);
