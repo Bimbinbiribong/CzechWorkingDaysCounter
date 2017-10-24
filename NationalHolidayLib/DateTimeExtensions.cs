@@ -57,7 +57,7 @@ namespace NationalHolidayLib
         public static int GetMonthWorkingDaysCountForCzech(this DateTime dateTime)
         {
             DateTime firstDay = new DateTime(dateTime.Year, dateTime.Month, 1);
-            DateTime lastDay = new DateTime(dateTime.Year, dateTime.Month + 1, 1).AddDays(-1);
+            DateTime lastDay = new DateTime(dateTime.Year, dateTime.Month, 1).AddMonths(1).AddDays(-1);
 
             int count = 0;
             for (DateTime day = firstDay; day <= lastDay; day = day.AddDays(1))
