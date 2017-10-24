@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NationalHolidayLib", "NationalHolidayLib\NationalHolidayLib.csproj", "{AC23194A-8BD4-4C65-AE94-E59476D077C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CzechHoliday", "CzechHoliday\CzechHoliday.csproj", "{55839A99-F95F-4B91-AB15-021D6C399C31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{AC23194A-8BD4-4C65-AE94-E59476D077C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC23194A-8BD4-4C65-AE94-E59476D077C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC23194A-8BD4-4C65-AE94-E59476D077C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55839A99-F95F-4B91-AB15-021D6C399C31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55839A99-F95F-4B91-AB15-021D6C399C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55839A99-F95F-4B91-AB15-021D6C399C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55839A99-F95F-4B91-AB15-021D6C399C31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
