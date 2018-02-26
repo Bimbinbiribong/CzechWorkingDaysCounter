@@ -6,8 +6,6 @@ using System.Threading.Tasks;
 
 namespace CzechHoliday
 {
-    using NationalHolidayLib;
-
     class Program
     {
         static void Main(string[] args)
